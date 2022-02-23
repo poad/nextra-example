@@ -3,7 +3,19 @@ name: dependabot-auto-merge
 on:
   pull_request_target:
 
-permissions: write-all
+# permissions: write-all
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: none
+  id-token: write
+  issues: none
+  packages: none
+  pull-requests: write
+  repository-projects: read
+  security-events: write
+  statuses: write
 
 jobs:
   auto-merge:
