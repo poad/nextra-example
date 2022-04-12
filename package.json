@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@types/node": "*",
-    "@types/react": "*",
+    "@types/react": "^17",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
     "eslint": "*",
