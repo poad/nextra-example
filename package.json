@@ -32,5 +32,8 @@
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "typescript": "*"
+  },
+  "resolutions": {
+    "micromark-util-events-to-acorn": "1.0.4"
   }
 }
