@@ -8,6 +8,7 @@
     "start": "next start",
     "export": "next export",
     "lint": "next lint",
+    "analyze": "ANALYZE=true next build",
     "all": "yarn lint --fix && yarn build"
   },
   "dependencies": {
@@ -18,6 +19,7 @@
     "react-dom": "*"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "*",
     "@types/node": "*",
     "@types/react": "*",
     "@typescript-eslint/eslint-plugin": "*",
@@ -31,6 +33,7 @@
     "eslint-plugin-jsx-a11y": "*",
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
+    "next-compose-plugins": "*",
     "typescript": "*"
   }
 }
