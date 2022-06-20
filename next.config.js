@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
-const withNextra = require('nextra')('nextra-theme-docs', './theme.config.js');
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
+import withNextra from 'nextra';
+const nextra = withNextra('nextra-theme-docs', './theme.config.js');
+import withBundleAnalyzer from '@next/bundle-analyzer';
+const analyzer = withBundleAnalyzer({
     enabled: process.env.ANALYZE === 'true',
 });
 
-module.exports = withBundleAnalyzer(withNextra({
+const config = analyzer(nextra({
     webpack5: true,
     reactStrictMode: true,
     esmExternals: true,
@@ -14,5 +16,6 @@ module.exports = withBundleAnalyzer(withNextra({
     experimental: {
         modern: true,
     }
-}
-));
+}));
+
+export default config;
