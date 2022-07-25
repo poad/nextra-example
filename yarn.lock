@@ -259,7 +259,14 @@
   dependencies:
     "@types/estree" "*"
 
-"@types/estree@*":
+"@types/estree-jsx@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/estree-jsx/-/estree-jsx-1.0.0.tgz#7bfc979ab9f692b492017df42520f7f765e98df1"
+  integrity sha512-3qvGd0z8F2ENTGr/GG1yViqfiKmRfrXVx5sJyHGFu3z7m5g5utCQtGp/g29JnjflhtQJBv1WDQukHiT58xPcYQ==
+  dependencies:
+    "@types/estree" "*"
+
+"@types/estree@*", "@types/estree@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.0.tgz#5fb2e536c1ae9bf35366eed879e827fa59ca41c2"
   integrity sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==
@@ -1333,11 +1340,11 @@ estraverse@^5.1.0, estraverse@^5.2.0, estraverse@^5.3.0:
   integrity sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==
 
 estree-util-attach-comments@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/estree-util-attach-comments/-/estree-util-attach-comments-2.0.1.tgz#57dd0ae170ce2a6d9170ad69e6a45c87bcb52d81"
-  integrity sha512-1wTBNndwMIsnvnuxjFIaYQz0M7PsCvcgP0YD7/dU8xWh1FuHk+O6pYpT4sLa5THY/CywJvdIdgw4uhozujga/g==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/estree-util-attach-comments/-/estree-util-attach-comments-2.1.0.tgz#47d69900588bcbc6bf58c3798803ec5f1f3008de"
+  integrity sha512-rJz6I4L0GaXYtHpoMScgDIwM0/Vwbu5shbMeER596rB2D1EWF6+Gj0e0UKzJPZrpoOc87+Q2kgVFHfjAymIqmw==
   dependencies:
-    "@types/estree" "^0.0.51"
+    "@types/estree" "^1.0.0"
 
 estree-util-build-jsx@^2.0.0:
   version "2.1.0"
@@ -1801,11 +1808,12 @@ has@^1.0.3:
     function-bind "^1.1.1"
 
 hast-util-to-estree@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/hast-util-to-estree/-/hast-util-to-estree-2.0.2.tgz#79c5bf588915610b3f0d47ca83a74dc0269c7dc2"
-  integrity sha512-UQrZVeBj6A9od0lpFvqHKNSH9zvDrNoyWKbveu1a2oSCXEDUI+3bnd6BoiQLPnLrcXXn/jzJ6y9hmJTTlvf8lQ==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/hast-util-to-estree/-/hast-util-to-estree-2.1.0.tgz#aeac70aad0102ae309570907b3f56a08231d5323"
+  integrity sha512-Vwch1etMRmm89xGgz+voWXvVHba2iiMdGMKmaMfYt35rbVtFDq8JNwwAIvi8zHMkO6Gvqo9oTMwJTmzVRfXh4g==
   dependencies:
-    "@types/estree-jsx" "^0.0.1"
+    "@types/estree" "^1.0.0"
+    "@types/estree-jsx" "^1.0.0"
     "@types/hast" "^2.0.0"
     "@types/unist" "^2.0.0"
     comma-separated-tokens "^2.0.0"
@@ -2406,11 +2414,11 @@ mdast-util-gfm@^0.1.0:
     mdast-util-to-markdown "^0.6.1"
 
 mdast-util-mdx-expression@^1.0.0:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/mdast-util-mdx-expression/-/mdast-util-mdx-expression-1.2.1.tgz#3195450498c438fbdb82838c23d9b3f8b23174da"
-  integrity sha512-BtQwyalaq6jRjx0pagtuAwGrmzL1yInrfA4EJv7GOoiPOUbR4gr6h65I+G3WTh1/Cag2Eda4ip400Ch6CFmWiA==
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/mdast-util-mdx-expression/-/mdast-util-mdx-expression-1.3.0.tgz#fed063cc6320da1005c8e50338bb374d6dac69ba"
+  integrity sha512-9kTO13HaL/ChfzVCIEfDRdp1m5hsvsm6+R8yr67mH+KS2ikzZ0ISGLPTbTswOFpLLlgVHO9id3cul4ajutCvCA==
   dependencies:
-    "@types/estree-jsx" "^0.0.1"
+    "@types/estree-jsx" "^1.0.0"
     "@types/hast" "^2.0.0"
     "@types/mdast" "^3.0.0"
     mdast-util-from-markdown "^1.0.0"
@@ -2442,11 +2450,11 @@ mdast-util-mdx@^2.0.0:
     mdast-util-mdxjs-esm "^1.0.0"
 
 mdast-util-mdxjs-esm@^1.0.0:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/mdast-util-mdxjs-esm/-/mdast-util-mdxjs-esm-1.2.1.tgz#9e3fd9770f06022b2e7b40fb444eafe64a96495f"
-  integrity sha512-3zNmTy1V1OgIxoV97PTkAl+tLriilS8d4CJwPV9LvBmWra5nnRriN8rpGSGGIM7NLoHfsUfvjcPoNIzl77F8Kw==
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/mdast-util-mdxjs-esm/-/mdast-util-mdxjs-esm-1.3.0.tgz#137345ef827169aeeeb6069277cd3e090830ce9a"
+  integrity sha512-7N5ihsOkAEGjFotIX9p/YPdl4TqUoMxL4ajNz7PbT89BqsdWJuBC9rvgt6wpbwTZqWWR0jKWqQbwsOWDBUZv4g==
   dependencies:
-    "@types/estree-jsx" "^0.0.1"
+    "@types/estree-jsx" "^1.0.0"
     "@types/hast" "^2.0.0"
     "@types/mdast" "^3.0.0"
     mdast-util-from-markdown "^1.0.0"
