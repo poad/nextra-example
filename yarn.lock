@@ -3895,9 +3895,9 @@ tiny-glob@^0.2.9:
     globrex "^0.1.2"
 
 title@^3.4.2:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/title/-/title-3.5.1.tgz#a2034454aff0442c71543006f08e1aff3ec99cb6"
-  integrity sha512-tf3NFu/EXsIyEN+GKq6ZuDaOw5wiyE6nmp4Yw7BuWZPk9jgE5PpLWH40ekzDW85+8kbcBCcV+Jz2Qfw0D/Y2MQ==
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/title/-/title-3.5.2.tgz#21596db334a55239d93b68525315b12da09624a9"
+  integrity sha512-PD9x2repsKvhDr/aE8mz9JlcyGKbTPOhIRraioVi9gc8AZEVok875UPFnWHFs97ddIomPC/oThpENPx3HhV5kg==
   dependencies:
     arg "1.0.0"
     chalk "2.3.0"
