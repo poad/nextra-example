@@ -2,7 +2,7 @@
   "name": "nextra-example",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -36,5 +36,8 @@
     "eslint-plugin-react-hooks": "*",
     "next-compose-plugins": "*",
     "typescript": "*"
+  },
+  "resolutions": {
+    "got": "11.8.5"
   }
 }

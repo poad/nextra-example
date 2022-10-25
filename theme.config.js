@@ -1,4 +1,6 @@
-export default {
+const { default: React } = require("react");
+
+module.exports =  {
     repository: 'https://github.com/shuding/nextra', // project repo
     docsRepository: 'https://github.com/shuding/nextra', // docs repo
     branch: 'master', // branch of docs
