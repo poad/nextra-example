@@ -36,8 +36,5 @@
     "eslint-plugin-react-hooks": "*",
     "next-compose-plugins": "*",
     "typescript": "*"
-  },
-  "resolutions": {
-    "got": "11.8.5"
   }
 }
