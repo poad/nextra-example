@@ -9,6 +9,9 @@ const analyzer = withBundleAnalyzer({
 const config = analyzer(nextra({
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    unoptimized: true,
+  },
 }));
 
 module.exports = config;
