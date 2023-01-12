@@ -2889,12 +2889,11 @@ next@^13:
     "@next/swc-win32-x64-msvc" "13.1.1"
 
 nextra-theme-docs@*:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-2.1.0.tgz#0d4a7b1cd4e08ad5152c4cf682a57c6352db9415"
-  integrity sha512-0Fn0EsGaKa9We2+CkN9LPtT6F21w4wbihuv0/Vg2YowpAdu5nslsDIhtg66CRET5U5007xE5GG8NLwWaCHQhhg==
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-2.2.1.tgz#e3267a569fa4f6fc29b2bfe3894f098846b3c2fe"
+  integrity sha512-qhbiMZJ+fItVEQ6hOOf3J3SAv8Snp2AKHO8BiFYzhJ3a8dkGvWVBFV8rHAtvaG08Mw0nXrFEyUEt+97WHb5Azw==
   dependencies:
     "@headlessui/react" "^1.7.7"
-    "@mdx-js/react" "^2.1.5"
     "@popperjs/core" "^2.11.6"
     clsx "^1.2.1"
     flexsearch "^0.7.21"
