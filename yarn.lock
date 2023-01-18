@@ -2890,9 +2890,9 @@ next@^13:
     "@next/swc-win32-x64-msvc" "13.1.2"
 
 nextra-theme-docs@*:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-2.2.3.tgz#b1991fae47d3d040ffbe8024b41d9280f4ba187c"
-  integrity sha512-KQEhUW89kUVnMMnLubBQKMlnw30gM8e9fVBzyfQ7aTO445EGjQWbm4UF/J7VBBlcPsAP+SiYXUzbQDpQy0jLng==
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-2.2.5.tgz#031ad5452f4f6dd2138213e12ba4c954db52bd93"
+  integrity sha512-dpfOr8O4w3+q2BpBvnOXsmuvDCrrVl9QPrETzN8xKc9z6+oJNt4PEZOHRHo2rADHyV4832sSnWxhERrVzvqfNA==
   dependencies:
     "@headlessui/react" "^1.7.7"
     "@popperjs/core" "^2.11.6"
@@ -2900,7 +2900,6 @@ nextra-theme-docs@*:
     flexsearch "^0.7.21"
     focus-visible "^5.2.0"
     git-url-parse "^13.1.0"
-    github-slugger "^2.0.0"
     intersection-observer "^0.12.2"
     match-sorter "^6.3.1"
     next-seo "^5.5.0"
