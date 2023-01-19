@@ -2908,9 +2908,9 @@ nextra-theme-docs@*:
     zod "^3.20.2"
 
 nextra@*:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/nextra/-/nextra-2.2.5.tgz#5fc230664ecc9b0b0e118b6f13567e9917122d28"
-  integrity sha512-sm8mtKxLhfGWNv0yGd9GRL+DPDdVJlyEGn+6zk7gOPQor4X6G1VLcNjGlGYFovS4ZHNrg8oKmhOZSkq79PBrtw==
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/nextra/-/nextra-2.2.6.tgz#9892dcbacae3391024c6b44bfdc0d5ec4177a148"
+  integrity sha512-94fYJTV523vtQr19py7JUc2Q/WQgQxZSx0qKcNZCnDEKc2BbpX5Qpf56YgQgRZmqGqC6fZ4+WCMC7ARxOWM1+A==
   dependencies:
     "@mdx-js/mdx" "^2.1.5"
     "@mdx-js/react" "^2.1.5"
