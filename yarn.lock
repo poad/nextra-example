@@ -373,9 +373,9 @@
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
 "@types/react@*", "@types/react@>=16":
-  version "18.0.26"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.26.tgz#8ad59fc01fef8eaf5c74f4ea392621749f0b7917"
-  integrity sha512-hCR3PJQsAIXyxhTNSiDFY//LhnMZWpNNr5etoCqx/iUfGc5gXWtQR2Phl908jVR6uPXacojQWTg4qRpkxTuGug==
+  version "18.0.27"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.27.tgz#d9425abe187a00f8a5ec182b010d4fd9da703b71"
+  integrity sha512-3vtRKHgVxu3Jp9t718R9BuzoD4NcQ8YJ5XRzsSKxNDiDonD2MXIT1TmSkenxuCycZJoQT5d2vE8LwWJxBC1gmA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -2890,9 +2890,9 @@ next@^13:
     "@next/swc-win32-x64-msvc" "13.1.2"
 
 nextra-theme-docs@*:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-2.2.5.tgz#031ad5452f4f6dd2138213e12ba4c954db52bd93"
-  integrity sha512-dpfOr8O4w3+q2BpBvnOXsmuvDCrrVl9QPrETzN8xKc9z6+oJNt4PEZOHRHo2rADHyV4832sSnWxhERrVzvqfNA==
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-2.2.6.tgz#935b6496fb11ed9bd329f919dcddbc0e4a1b2326"
+  integrity sha512-rSJi/iQ87ZLywa4kibNgvsBG29Ig7WBxn7hCvL6kToNGXxdoXIedu+kTTJVqowtAy6COf0bgmSz3u8Bvj6nRmg==
   dependencies:
     "@headlessui/react" "^1.7.7"
     "@popperjs/core" "^2.11.6"
@@ -2908,9 +2908,9 @@ nextra-theme-docs@*:
     zod "^3.20.2"
 
 nextra@*:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/nextra/-/nextra-2.2.5.tgz#5fc230664ecc9b0b0e118b6f13567e9917122d28"
-  integrity sha512-sm8mtKxLhfGWNv0yGd9GRL+DPDdVJlyEGn+6zk7gOPQor4X6G1VLcNjGlGYFovS4ZHNrg8oKmhOZSkq79PBrtw==
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/nextra/-/nextra-2.2.6.tgz#9892dcbacae3391024c6b44bfdc0d5ec4177a148"
+  integrity sha512-94fYJTV523vtQr19py7JUc2Q/WQgQxZSx0qKcNZCnDEKc2BbpX5Qpf56YgQgRZmqGqC6fZ4+WCMC7ARxOWM1+A==
   dependencies:
     "@mdx-js/mdx" "^2.1.5"
     "@mdx-js/react" "^2.1.5"
