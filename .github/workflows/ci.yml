@@ -27,7 +27,7 @@ jobs:
   yarn-base-test:
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [16.x, 18.x]
         targets:
           - path: next-examples/nextra-example
 
