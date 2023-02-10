@@ -1696,9 +1696,9 @@ hast-util-parse-selector@^3.0.0:
     "@types/hast" "^2.0.0"
 
 hast-util-to-estree@^2.0.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/hast-util-to-estree/-/hast-util-to-estree-2.3.0.tgz#02d3402652a11e3725769ea5d24eb0c969b7ab5e"
-  integrity sha512-FCFA4GhTQqRO9n8dDDj9IlSWiVxDEY7jEOmTWocMpF5IiQ2BADVYf72AWB1hsZmJJPDsf5VTvYZnXHS/52HA4w==
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/hast-util-to-estree/-/hast-util-to-estree-2.3.1.tgz#3e96c1d4ab50c19aefdc007ece76508493bcf0dc"
+  integrity sha512-32ZCqq3wz1AAJVhLKtAyIRJ/Fcpn7ZPDDJ10ICFNP6xWWSymdPJ0kEn9dRbrgUMLYQmV+Uc6+SGSGqXCLZgnLw==
   dependencies:
     "@types/estree" "^1.0.0"
     "@types/estree-jsx" "^1.0.0"
