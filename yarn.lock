@@ -365,9 +365,9 @@
   integrity sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==
 
 "@types/node@*":
-  version "20.1.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.1.1.tgz#afc492e8dbe7f672dd3a13674823522b467a45ad"
-  integrity sha512-uKBEevTNb+l6/aCQaKVnUModfEMjAl98lw2Si9P5y4hLu9tm6AlX2ZIoXZX6Wh9lJueYPrGPKk5WMCNHg/u6/A==
+  version "20.1.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.1.2.tgz#8fd63447e3f99aba6c3168fd2ec4580d5b97886f"
+  integrity sha512-CTO/wa8x+rZU626cL2BlbCDzydgnFNgc19h4YvizpTO88MFQxab8wqisxaofQJ/9bLGugRdWIuX/TbIs6VVF6g==
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -2602,9 +2602,9 @@ micromark-extension-gfm-strikethrough@^1.0.0:
     uvu "^0.5.0"
 
 micromark-extension-gfm-table@^1.0.0:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/micromark-extension-gfm-table/-/micromark-extension-gfm-table-1.0.5.tgz#7b708b728f8dc4d95d486b9e7a2262f9cddbcbb4"
-  integrity sha512-xAZ8J1X9W9K3JTJTUL7G6wSKhp2ZYHrFk5qJgY/4B33scJzE2kpfRL6oiw/veJTbt7jiM/1rngLlOKPWr1G+vg==
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/micromark-extension-gfm-table/-/micromark-extension-gfm-table-1.0.6.tgz#22b2b18dff9db39bdb29d6017e53bdd370672c8e"
+  integrity sha512-92pq7Q+T+4kXH4M6kL+pc8WU23Z9iuhcqmtYFWdFWjm73ZscFpH2xE28+XFpGWlvgq3LUwcN0XC0PGCicYFpgA==
   dependencies:
     micromark-factory-space "^1.0.0"
     micromark-util-character "^1.0.0"
@@ -2631,9 +2631,9 @@ micromark-extension-gfm-task-list-item@^1.0.0:
     uvu "^0.5.0"
 
 micromark-extension-gfm@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/micromark-extension-gfm/-/micromark-extension-gfm-2.0.1.tgz#40f3209216127a96297c54c67f5edc7ef2d1a2a2"
-  integrity sha512-p2sGjajLa0iYiGQdT0oelahRYtMWvLjy8J9LOCxzIQsllMCGLbsLW+Nc+N4vi02jcRJvedVJ68cjelKIO6bpDA==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/micromark-extension-gfm/-/micromark-extension-gfm-2.0.2.tgz#debb621b60b7e03f79df9125ee99e4a76a76067d"
+  integrity sha512-oMBh++llCWHYftkP1NmeoQDHHlj3nsRYL3HBhjwBqm+CjSQ4l/v05XiQMTWqmYh4MLEVbq473qEi6S1wonCxcA==
   dependencies:
     micromark-extension-gfm-autolink-literal "^1.0.0"
     micromark-extension-gfm-footnote "^1.0.0"
@@ -2645,9 +2645,9 @@ micromark-extension-gfm@^2.0.0:
     micromark-util-types "^1.0.0"
 
 micromark-extension-math@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/micromark-extension-math/-/micromark-extension-math-2.1.0.tgz#15ec67f8a3d6de64428d6eb456b0b00a77402f3b"
-  integrity sha512-WH+fJkveMvM3ZN+deb/jT3UW623x8xO9ycfJNDC+UQXX+V72RO6hT9KqxA7c8XFwozAFJ7tufOeG+x/CVSXHUw==
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/micromark-extension-math/-/micromark-extension-math-2.1.1.tgz#9a2901d32a275a433e66e452ea48f4996fabf18b"
+  integrity sha512-4rTUTTwHuXNL/sHy/LpmTEku+YOJIK4VYdILxv8bRI4unSpfdd/UzOv/DBV2KqgBeGQiyA3vmsARrKS7WQWwxw==
   dependencies:
     "@types/katex" "^0.16.0"
     katex "^0.16.0"
@@ -2686,9 +2686,9 @@ micromark-extension-mdx-jsx@^1.0.0:
     vfile-message "^3.0.0"
 
 micromark-extension-mdx-md@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/micromark-extension-mdx-md/-/micromark-extension-mdx-md-1.0.0.tgz#382f5df9ee3706dd120b51782a211f31f4760d22"
-  integrity sha512-xaRAMoSkKdqZXDAoSgp20Azm0aRQKGOl0RrS81yGu8Hr/JhMsBmfs4wR7m9kgVUIO36cMUQjNyiyDKPrsv8gOw==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/micromark-extension-mdx-md/-/micromark-extension-mdx-md-1.0.1.tgz#595d4b2f692b134080dca92c12272ab5b74c6d1a"
+  integrity sha512-7MSuj2S7xjOQXAjjkbjBsHkMtb+mDGVW6uI2dBL9snOBCbZmoNgDAeZ0nSn9j3T42UE/g2xVNMn18PJxZvkBEA==
   dependencies:
     micromark-util-types "^1.0.0"
 
@@ -3034,9 +3034,9 @@ next@^13:
     "@next/swc-win32-x64-msvc" "13.4.1"
 
 nextra-theme-docs@*:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-2.5.0.tgz#91f422711a4bf9888e9bfe3af6dc5baf36fc6892"
-  integrity sha512-xmJx0xj0Mewfr/h4xkZH5TuTB6qWeygCGW384ySqZA81LargQjEqw8a25BSif8dWaMAZZ+oIBOvJ2Et+CJytQQ==
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-2.5.1.tgz#3a18f7726a915dcee5d12ade183a95d38ae38bc3"
+  integrity sha512-GtDHlvMFtsnxm6Wm2yvmeRGw+sFf2stcDzwAX8+HT+54TUrKUtnZu17I8OPdtcVBOpUxfpAaEHPKbDsPc9Pcaw==
   dependencies:
     "@headlessui/react" "^1.7.10"
     "@popperjs/core" "^2.11.6"
@@ -3052,9 +3052,9 @@ nextra-theme-docs@*:
     zod "^3.20.2"
 
 nextra@*:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/nextra/-/nextra-2.5.0.tgz#0b9ca9a70e4a26390ed5aab7b5f3f3ae290aba51"
-  integrity sha512-YvknuUvV2fdFY3F3gsxNFA2lwDWg3KHEAiyumUxZKOnW8+yTwocXGFccD76Py9fYxcmUL9ARo+PEusnXlWmLeQ==
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/nextra/-/nextra-2.5.1.tgz#cbdea18c633bb33c2a57d5aba9ffd33d1388f21d"
+  integrity sha512-/UO65BvXpyMcLdKGfzxzMPxUr5yuZ8qrrJGA3/lW6nNIxtlHsO3NdhA9Nkis0ia5GUZB2JXl0AhEmZ67oT9MVQ==
   dependencies:
     "@mdx-js/mdx" "^2.3.0"
     "@mdx-js/react" "^2.3.0"
