@@ -621,9 +621,9 @@ ast-types-flow@^0.0.7:
   integrity sha512-eBvWn1lvIApYMhzQMsu9ciLfkBY499mFZlNqG+/9WR7PVlroQw0vG30cOQQbaKz3sCEc44TAOu2ykzqXSNnwag==
 
 astring@^1.8.0:
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/astring/-/astring-1.8.4.tgz#6d4c5d8de7be2ead9e4a3cc0e2efb8d759378904"
-  integrity sha512-97a+l2LBU3Op3bBQEff79i/E4jMD2ZLFD8rHx9B6mXyB2uQwhJQYfiDqUwtfjF4QA1F2qs//N6Cw8LetMbQjcw==
+  version "1.8.5"
+  resolved "https://registry.yarnpkg.com/astring/-/astring-1.8.5.tgz#d5b95ce508e8987e32ab14ee62b4a0ac21de6938"
+  integrity sha512-TuBbdn7jWVzf8dmFGTaRpW8qgANtWLi1qJLnkfGO5uVf6jf9f/F4B1H35tnOI+qVYZo3p3i8WZlbZOuPAE0wEA==
 
 available-typed-arrays@^1.0.5:
   version "1.0.5"
