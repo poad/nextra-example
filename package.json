@@ -12,16 +12,16 @@
     "all": "pnpm lint --fix && pnpm build"
   },
   "dependencies": {
-    "next": "^13.4.11",
+    "next": "^13.4.12",
     "nextra": "^2.10.0",
     "nextra-theme-docs": "^2.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.4.11",
-    "@types/node": "^20.4.2",
-    "@types/react": "^18.2.15",
+    "@next/bundle-analyzer": "^13.4.12",
+    "@types/node": "^20.4.4",
+    "@types/react": "^18.2.16",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.45.0",
