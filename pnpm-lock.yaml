@@ -318,8 +318,8 @@ packages:
       '@babel/helper-validator-identifier': 7.22.5
       to-fast-properties: 2.0.0
 
-  /@braintree/sanitize-url@6.0.2:
-    resolution: {integrity: sha512-Tbsj02wXCbqGmzdnXNk0SOF19ChhRU70BsroIi4Pm6Ehp56in6vch94mfbdQ17DozxkL3BAVjbZ4Qc1a0HFRAg==}
+  /@braintree/sanitize-url@6.0.3:
+    resolution: {integrity: sha512-g2hMyGSFYOvt0eeY2c2wrG1B6dVWF1be4vGxG9mI1BEHJuQm4Hie2HrooxYHBDRDi8hANIzQ8cuvBgxSVlQOTQ==}
     dev: false
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.46.0):
@@ -3394,7 +3394,7 @@ packages:
   /mermaid@10.3.0:
     resolution: {integrity: sha512-H5quxuQjwXC8M1WuuzhAp2TdqGg74t5skfDBrNKJ7dt3z8Wprl5S6h9VJsRhoBUTSs1TMtHEdplLhCqXleZZLw==}
     dependencies:
-      '@braintree/sanitize-url': 6.0.2
+      '@braintree/sanitize-url': 6.0.3
       '@types/d3-scale': 4.0.3
       '@types/d3-scale-chromatic': 3.0.0
       cytoscape: 3.25.0
