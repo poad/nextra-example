@@ -44,7 +44,10 @@
       "injected": true
     }
   },
-  "resolutions": {
-    "json5": ">=2.2.2"
+  "packageManager": "pnpm@8.6.12",
+  "engines": {
+    "npm": "use pnpm please!",
+    "yarn": "use pnpm please!",
+    "pnpm": ">=8.6.12"
   }
 }
