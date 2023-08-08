@@ -27,7 +27,7 @@ jobs:
   pnpm-base-test:
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [18.x]
         targets:
           - path: next-examples/nextra-example
 
@@ -39,7 +39,6 @@ jobs:
         name: Install pnpm
         id: pnpm-install
         with:
-          version: 8.6.3
           run_install: |
             - recursive: true
               args: [--no-frozen-lockfile]
