@@ -4,7 +4,6 @@ updates:
     directory: /
     schedule:
       interval: daily
-      timezone: Asia/Tokyo
     allow:
       - dependency-type: all
     rebase-strategy: auto
@@ -21,3 +20,39 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      nextjs:
+        patterns:
+          - 'next'
+          - '@next/*'
+          - 'next-*'
+          - 'eslint-config-next'
+          - 'nextra'
+          - 'nextra-*'
+      eslint-prettier:
+        patterns:
+          - '@typescript-eslint/*'
+          - 'eslint'
+          - 'eslint-*'
+          - 'prettier'
+        exclude-patterns:
+          - 'eslint-config-next'
+      react:
+        patterns:
+          - '@types/react*'
+          - 'react*'
+      misc:
+        patterns:
+          - '*'
+        exclude-patterns:
+          - 'next'
+          - '@next/*'
+          - 'next-*'
+          - 'nextra'
+          - 'nextra-*'
+          - '@typescript-eslint/*'
+          - 'eslint'
+          - 'eslint-*'
+          - 'prettier'
+          - '@types/react*'
+          - 'react*'
