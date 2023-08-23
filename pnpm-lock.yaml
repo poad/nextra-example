@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^13.4.19
     version: 13.4.19
   '@types/node':
-    specifier: ^20.5.2
-    version: 20.5.2
+    specifier: ^20.5.3
+    version: 20.5.3
   '@types/react':
     specifier: ^18.2.21
     version: 18.2.21
@@ -415,7 +415,7 @@ packages:
     resolution: {integrity: sha512-jLuwRlz8DQfQNiUCJR50Y09CGPq3fLtmtUQfVrj79E0JWu3dvsVcxVIcfhR5h0iXu+/z++zDrYeiJqifRynJkA==}
     dependencies:
       '@types/estree-jsx': 1.0.0
-      '@types/mdx': 2.0.6
+      '@types/mdx': 2.0.7
       estree-util-build-jsx: 2.2.2
       estree-util-is-identifier-name: 2.1.0
       estree-util-to-js: 1.2.0
@@ -440,7 +440,7 @@ packages:
     peerDependencies:
       react: '>=16'
     dependencies:
-      '@types/mdx': 2.0.6
+      '@types/mdx': 2.0.7
       '@types/react': 18.2.21
       react: 18.2.0
     dev: false
@@ -729,8 +729,8 @@ packages:
     resolution: {integrity: sha512-dsoJGEIShosKVRBZB0Vo3C8nqSDqVGujJU6tPznsBJxNJNwMF8utmS83nvCBKQYPpjCzaaHcrf66iTRpZosLPw==}
     dev: false
 
-  /@types/d3-scale@4.0.3:
-    resolution: {integrity: sha512-PATBiMCpvHJSMtZAMEhc2WyL+hnzarKzI6wAHYjhsonjWJYGq5BXTzQjv4l8m2jO183/4wZ90rKvSeT7o72xNQ==}
+  /@types/d3-scale@4.0.4:
+    resolution: {integrity: sha512-eq1ZeTj0yr72L8MQk6N6heP603ubnywSDRfNpi5enouR112HzGLS6RIvExCzZTraFF4HdzNpJMwA/zGiMoHUUw==}
     dependencies:
       '@types/d3-time': 3.0.0
     dev: false
@@ -787,16 +787,16 @@ packages:
       '@types/unist': 2.0.7
     dev: false
 
-  /@types/mdx@2.0.6:
-    resolution: {integrity: sha512-sVcwEG10aFU2KcM7cIA0M410UPv/DesOPyG8zMVk0QUDexHA3lYmGucpEpZ2dtWWhi2ip3CG+5g/iH0PwoW4Fw==}
+  /@types/mdx@2.0.7:
+    resolution: {integrity: sha512-BG4tyr+4amr3WsSEmHn/fXPqaCba/AYZ7dsaQTiavihQunHSIxk+uAtqsjvicNpyHN6cm+B9RVrUOtW9VzIKHw==}
     dev: false
 
   /@types/ms@0.7.31:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: false
 
-  /@types/node@20.5.2:
-    resolution: {integrity: sha512-5j/lXt7unfPOUlrKC34HIaedONleyLtwkKggiD/0uuMfT8gg2EOpg0dz4lCD15Ga7muC+1WzJZAjIB9simWd6Q==}
+  /@types/node@20.5.3:
+    resolution: {integrity: sha512-ITI7rbWczR8a/S6qjAW7DMqxqFMjjTo61qZVWJ1ubPvbIQsL5D/TvwjYEalM8Kthpe3hTzOGrF2TGbAu2uyqeA==}
     dev: true
 
   /@types/prop-types@15.7.5:
@@ -3295,7 +3295,7 @@ packages:
     resolution: {integrity: sha512-hkenh7WkuRWPcob3oJtrN3W+yzrrIYuWF1OIfk/d0xGE8UWlvDhfexaHmDwwe8DKQgqMLI8DWEPwGprxkumjuw==}
     dependencies:
       '@braintree/sanitize-url': 6.0.4
-      '@types/d3-scale': 4.0.3
+      '@types/d3-scale': 4.0.4
       '@types/d3-scale-chromatic': 3.0.0
       cytoscape: 3.26.0
       cytoscape-cose-bilkent: 4.1.0(cytoscape@3.26.0)
