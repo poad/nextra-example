@@ -13,18 +13,18 @@
   },
   "dependencies": {
     "next": "^13.4.19",
-    "nextra": "^2.12.1",
-    "nextra-theme-docs": "^2.12.1",
+    "nextra": "^2.12.2",
+    "nextra-theme-docs": "^2.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13.4.19",
-    "@types/node": "^20.5.4",
+    "@types/node": "^20.5.7",
     "@types/react": "^18.2.21",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
-    "eslint": "^8.47.0",
+    "eslint": "^8.48.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-next": "^13.4.19",
     "eslint-import-resolver-typescript": "^3.6.0",
@@ -34,7 +34,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "next-compose-plugins": "^2.2.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
   "dependenciesMeta": {
     "nextra": {
