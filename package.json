@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "export": "next export",
+    "start": "pnpm dlx serve@latest out",
     "lint": "next lint",
     "analyze": "ANALYZE=true next build",
     "all": "pnpm lint --fix && pnpm build"
@@ -44,10 +43,10 @@
       "injected": true
     }
   },
-  "packageManager": "pnpm@8.6.12",
+  "packageManager": "pnpm@8.7.1",
   "engines": {
     "npm": "use pnpm please!",
     "yarn": "use pnpm please!",
-    "pnpm": ">=8.6.12"
+    "pnpm": ">=8.7.1"
   }
 }

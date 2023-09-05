@@ -27,7 +27,7 @@ jobs:
   pnpm-base-test:
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [20.x]
         targets:
           - path: next-examples/nextra-example
 

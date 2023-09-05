@@ -6,12 +6,13 @@ const analyzer = withBundleAnalyzer({
 });
 
 /** @type {import('next').NextConfig} */
-const config = analyzer(nextra({
+const nextConfig = {
+  output: "export",
   reactStrictMode: true,
   swcMinify: true,
   images: {
     unoptimized: true,
   },
-}));
+};
 
-module.exports = config;
+module.exports = analyzer(nextra(nextConfig));
