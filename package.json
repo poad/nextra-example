@@ -11,21 +11,21 @@
     "all": "pnpm lint --fix && pnpm build"
   },
   "dependencies": {
-    "next": "^14.0.0",
+    "next": "^14.0.1",
     "nextra": "^2.13.2",
     "nextra-theme-docs": "^2.13.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^14.0.0",
+    "@next/bundle-analyzer": "^14.0.1",
     "@types/node": "^20.8.9",
     "@types/react": "^18.2.33",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
     "eslint": "^8.52.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^14.0.0",
+    "eslint-config-next": "^14.0.1",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.29.0",
